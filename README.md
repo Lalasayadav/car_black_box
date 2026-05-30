@@ -36,4 +36,26 @@ To work on or understand this project, knowledge in the following areas is essen
 
 ---
 
-## 🧰 File Structure
+## 🧰 File Structure 
+```
+car_black_box_project.X/
+│
+├── main.c          → Main program, super loop, state machine
+├── main.h          → All header includes and flag definitions
+├── car_black_box.c → Core logic (dashboard, login, menu, logs)
+├── adc.c / adc.h   → ADC configuration for speed reading
+├── clcd.c / clcd.h → Character LCD display functions
+├── keypad.c        → Digital keypad (5 push buttons)
+├── ds1307.c        → RTC (Real Time Clock) functions
+├── eeprom.c        → External EEPROM read/write functions
+├── i2c.c           → I2C communication protocol
+├── timers.c        → Timer2 configuration (login timeout)
+└── uart.c          → UART serial communication
+---
+
+---------
+## 👨‍💻 Author
+**Oruganti Lalasa Yadav**
+Embedded Systems Project — Car Black Box
+PIC16F877A | MPLAB XC8 | PICSimLab
+----------
